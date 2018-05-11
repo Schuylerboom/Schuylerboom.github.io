@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>HTML Calculator</title>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+<style>
+ .bt {
+  background: red;
+ }
+  .bt1 {
+  background: red;
+ }
+  .bt2 {
+  background: red;
+ }
+ .bt,.bt1,.bt2{
+  width: 60px;
+  height: 60px;
+  font-family: 'Pacifico', cursive;
+  font-weight: 800;
+  font-size:30px;
+ }
+</style>
+<center>
+<h1 style="color:#00ff00;" font-family: 'Indie Flower', cursive;>Calculator By Schuyler</h1>
+<body bgcolor= "#000000" text= "gold">
+<form name="calculator" >
+
+
+
+<input type="button" value="1" onClick="document.calculator.ans.value+='1'" class="bt">
+<input type="button" value="2" onClick="document.calculator.ans.value+='2'" class="bt">
+<input type="button" value="3" onClick="document.calculator.ans.value+='3'" class="bt">
+<input type="button" value="+" onClick="document.calculator.ans.value+='+'" class="bt">
+<br>
+<input type="button" value="4" onClick="document.calculator.ans.value+='4'" class="bt1">
+<input type="button" value="5" onClick="document.calculator.ans.value+='5'" class="bt1">
+<input type="button" value="6" onClick="document.calculator.ans.value+='6'" class="bt1">
+<input type="button" value="-" onClick="document.calculator.ans.value+='-'" class="bt1">
+<br>
+<input type="button" value="7" onClick="document.calculator.ans.value+='7'" class="bt2">
+<input type="button" value="8" onClick="document.calculator.ans.value+='8'" class="bt2">
+<input type="button" value="9" onClick="document.calculator.ans.value+='9'" class="bt2">
+<input type="button" value="*" onClick="document.calculator.ans.value+='*'" class="bt2">
+<br>
+<input type="button" value="/" onClick="document.calculator.ans.value+='/'" class="bt">
+<input type="button" value="0" onClick="document.calculator.ans.value+='0'" class="bt1">
+<input type="reset" value="C" class="bt">
+<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)" class="bt2">
+<br>
+<br>
+<h2 style="color:#00ff00;" font-family: 'Indie Flower', cursive;>Output
+<input type="textfield" name="ans" value="" style="width: 172px; height: 40px; font-family: 'Pacifico', cursive;">
+</form>
+</form>
+</body>
+</center>
+</html>﻿
